@@ -1,0 +1,60 @@
+.card {
+    width: 18rem;
+    margin-top: 50px;
+}
+
+.card-body {
+    background-color: grey;
+}
+
+.scroll {
+    height : 300px;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.list-group-item {
+    margin-bottom: 5px;
+}
+
+.bubble {
+    position: relative;
+    border-radius: .4em;
+}
+
+.bubble:after {
+    content: '';
+    position: absolute;
+    border: 15px solid transparent;
+    width: 0;
+    height: 0;
+    border-top: 0;
+    top: 50%;
+    margin-top: -7.5px;
+}
+
+.request {
+    text-align: right;
+    color: black;
+	background: white;
+}
+
+.request:after {
+	right: 0;
+	border-left-color: white;
+	border-right: 0;
+	margin-right: -15px;
+}
+
+.response {
+	background: cornflowerblue;
+    text-align: left;
+    color: black;
+}
+
+.response:after {
+	left: 0;
+	border-right-color: cornflowerblue;
+	border-left: 0;
+	margin-left: -15px;
+}
